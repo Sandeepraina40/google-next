@@ -10,8 +10,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
-      <body className='relative min-h-screen'>
-        {children}
+      <body className='flex flex-col min-h-screen'>
+        {/* Main content should take full height */}
+        <main className="flex-grow">{children}</main>
+
+        {/* Footer is now at the bottom */}
         <Footer />
       </body>
     </html>
