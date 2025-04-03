@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { usePathname, useSearchParams } from 'next/navigation';
 import { BsChevronLeft, BsChevronRight } from 'react-icons/bs';
 
-export default function PaginationButtons() {
+export default function https://nextjs.org/docs/messages/missing-suspense-with-csr-bailout() {
   const pathname = usePathname();
   const searchParams = useSearchParams();
   const searchTerm = searchParams.get('searchTerm');
